@@ -1,0 +1,60 @@
+footer .footer-above {
+    padding-top: 30px;
+    background-color: #1c86c3;
+    color:#89d6ca;
+
+}
+
+footer .footer-below {
+    padding: 20px 0;
+    background-color: #006aa7;
+    color: #89d6ca;
+}
+
+.text-center{text-align:center}
+
+.list-inline a{
+	color: #89d6ca;
+	text-decoration: noun;
+}
+
+.list-inline a:focus,
+.list-inline a:hover {
+    color: #23527c;
+    text-decoration: underline
+}
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+body {
+  background-color:#fff;
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px Roboto,arial,sans-serif;
+}
+
+
+.form-login {
+    background-color: #EDEDED;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+
+h4 { 
+ border:0 solid #fff; 
+ border-bottom-width:1px;
+ padding-bottom:10px;
+ text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.wrapper {
+    text-align: center;
+}

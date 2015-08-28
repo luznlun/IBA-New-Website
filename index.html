@@ -8,15 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="icon" href="img/logo.ico">
 
     <title>SJSU - International Business Association</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/eventify.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- Custom CSS -->
     <link href="css/modern-business.css" rel="stylesheet">
-    
+    <link href="css/more.css" rel="stylesheet">
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,11 +34,8 @@
           margin: auto;
       }
       </style>
-      <link rel="stylesheet" href="css/eventify.css">
-      <link rel="stylesheet" href="css/font-awesome.min.css">
-		<script src="js/jquery-2.1.1.min.js"></script>
-        <script src="js/moment.js"></script>
-        <script src="js/eventify.js"></script>
+      
+		
 </head>
 
 <body>
@@ -60,30 +60,17 @@
                         <a href="about.html">About Us</a>
                     </li>
                     <li>
-                        <a href="about.html">Officers</a>
+                        <a href="member.html">Membership</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="https://docs.google.com/forms/d/1WfEzQkuLMNpHa7QswbMSuUOB8jLXiDHo2QLxzsgiWvA/edit?usp=sharing">Register</a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="full-width.html">Full Width Page</a>
-                            </li>
-                            <li>
-                                <a href="sidebar.html">Sidebar Page</a>
-                            </li>
-                            <li>
-                                <a href="faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="404.html">404</a>
-                            </li>
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
-                        </ul>
+
+                    <li>
+                        <a href="resource.html">Resources</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Leadership</a>
                     </li>
                 </ul>
             </div>
@@ -106,7 +93,7 @@
             <div class="item active">
                 <div class="fill img-responsive" style="background-image:url(img/slide1.PNG)"></div>
                 <div class="carousel-caption">
-                    <h2>Congratulation to our graduation officers 2015</h2>
+                    <h2>Graduated officers</h2>
                 </div>
             </div>
             <div class="item">
@@ -133,103 +120,89 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container" class="container">
 
         <!-- Marketing Icons Section -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">
-                    Welcome to Internation Business Association
+                <h1 class="page-header">The International Business Association
+                    <small>Schedule</small>
                 </h1>
             </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-home"></i>About US</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Something About us</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
+        </div>
+		<!-- Eventify  -->
+		<div class="" id="ei-events" style="margin:auto;">
+            <div class="ei-event" data-start="2015-09-14 15:00" data-end="2015-09-14 17:00" data-loc="Near Jamba Juice">
+                <div class="ei-name">Casual weekly meeting</div>
+                <div class="ei-description">Casual weekly hangout at Student Union -- Q&A, study session, games, etc (to build sense of community)</div>
             </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-gift"></i>Resources</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Something about resources</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
+            <div class="ei-event" data-start="2015-09-09 17:00" data-end="2015-09-9 18:00" data-loc="Duncan Hall 243">
+                <div class="ei-name">Opening meeting</div>
+                <div class="ei-description">Introductions and info about IBA</div>
             </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i>Additional</h4>
+            <div class="ei-event" data-start="2015-09-21 15:00" data-end="2015-09-21 17:00" data-loc="Near Jamba Juice">
+                <div class="ei-name">Casual weekly meeting</div>
+                <div class="ei-description">Casual weekly hangout at Student Union -- Q&A, study session, games, etc (to build sense of community)</div>
+            </div>
+            <div class="ei-event" data-start="2015-09-28 15:00" data-end="2015-09-28 17:00" data-loc="Near Jamba Juice">
+                <div class="ei-name">Casual weekly meeting</div>
+                <div class="ei-description">Casual weekly hangout at Student Union -- Q&A, study session, games, etc (to build sense of community)</div>
+            </div>
+            <div class="ei-event" data-start="2015-10-05 15:00" data-end="2015-10-05 17:00" data-loc="Near Jamba Juice">
+                <div class="ei-name">Casual weekly meeting</div>
+                <div class="ei-description">Casual weekly hangout at Student Union -- Q&A, study session, games, etc (to build sense of community)</div>
+            </div>
+
+        </div>  
+       
+        
+
+        <hr>
+
+
+    </div>
+    <!-- /.container -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>One Washington Square San Jose, CA 95112</p>
                     </div>
-                    <div class="panel-body">
-                        <p>Additional thing</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                    <div class="footer-col col-md-4">
+                        <h3>Social Networks</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/SJSUIBA" class="btn-social"><i class="fa fa-3x fa-facebook-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/sjsuiba" class="btn-social btn-outline"><i class="fa fa-3x fa-twitter-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/groups/International-Business-Association-SJSU-Official-3526730/about" class="btn-social btn-outline"><i class="fa fa-3x fa-linkedin-square"></i></a>
+                            </li>
+                            <h4>E-mail: iba.sjsu@gmail.com</h4>
+                        </ul>
+
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About This page</h3>
+                        <p >This Website is developered by Chris Cui <a style="color:white" href="http://chriscui.com/">Go to my Page</a>.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- /.row -->
-		<!-- Eventify -->
-		<div id="ei-events">
-			<div class="ei-event" data-start="2014-12-29 17:30" data-end="2014-12-24 08:30" data-loc="London">
-				<div class="ei-name">Club opening</div>
-				<div class="ei-description">Lorem ipsum dolor sit amet, consectetur adipiscing.</div>
-			</div>
-			<div class="ei-event" data-start="2013-12-26 16:30" data-end="2014-12-29 19:30" data-loc="Paris">
-				<div class="ei-name">IT conf</div>
-				<div class="ei-description">Lorem ipsum dolor sit amet, consectetur adipiscing.</div>
-			</div>
-			<div class="ei-event" data-start="2015-01-10 16:30" data-end="2014-12-24 17:30" data-loc="New York">
-				<div class="ei-name">Meteor.js meeting</div>
-				<div class="ei-description">Lorem ipsum dolor sit amet, consectetur adipiscing.</div>
-			</div>
-			<div class="ei-event" data-start="2015-02-22 16:30" data-end="2014-12-24 17:30" data-loc="Sidney">
-				<div class="ei-name">Christmas party</div>
-				<div class="ei-description">Lorem ipsum dolor sit amet, consectetur adipiscing.</div>
-			</div>
-			<div class="ei-event" data-start="2014-12-28 16:30" data-end="2014-12-28 19:20" data-loc="Madrid">
-				<div class="ei-name">Lorem ipsum dolor</div>
-				<div class="ei-description">Lorem ipsum dolor sit amet, consect ratatattatttt dadaddd haha</div>
-			</div>
-			<div class="ei-event" data-start="2014-12-29 16:30" data-end="2014-12-24 16:30" data-loc="London">
-				<div class="ei-name">Lorem ipsum dolor</div>
-				<div class="ei-description">Lorem ipsum dolor sit amet, consectetur adipiscing haha.</div>
-			</div>
-			<div class="ei-event" data-start="2015-03-21 22:30" data-end="2014-12-29 16:30" data-loc="Berlin">
-				<div class="ei-name">Lorem ipsum dolor</div>
-				<div class="ei-description">Lorem ipsum dolor sit amet, consectetur adipiscing.</div>
-			</div>
-			<div class="ei-event" data-start="2015-03-21 22:30" data-end="2014-12-29 16:30" data-loc="Berlin">
-				<div class="ei-name">Lorem ipsum dolor</div>
-				<div class="ei-description">Lorem ipsum dolor sit amet, consectetur adipiscing.</div>
-			</div>
-		</div>
-
-        
- 
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; SJSU IBA 2015</p>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; SJSU IBA 2015
+                    </div>
                 </div>
             </div>
-        </footer>
-
-    </div>
-    <!-- /.container -->
-
+        </div>
+    </footer>
     <!-- jQuery 
     <script src="js/jquery.js"></script>-->
 
@@ -238,6 +211,10 @@
 
     <!-- Script to Activate the Carousel -->
     
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+
+    <script src="js/moment.js"></script>
+    <script type="text/javascript" src="js/eventify.js"></script>
 
     <script>
 	
@@ -248,8 +225,6 @@
 
     </script>
 	
-	
-
 </body>
 
 </html>

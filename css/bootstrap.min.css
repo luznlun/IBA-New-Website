@@ -1126,6 +1126,7 @@ img {
     max-width: 100%;
     height: auto
 }
+
 .img-rounded {
     border-radius: 6px
 }
@@ -1414,6 +1415,9 @@ ol ul,
 ul ol,
 ul ul {
     margin-bottom: 0
+}
+h1{
+    color: #008ee0;
 }
 .list-unstyled {
     padding-left: 0;
@@ -3060,6 +3064,47 @@ textarea.form-group-lg .form-control {
         margin-bottom: 0;
         text-align: right
     }
+
+    .ei-nav-container {
+    margin: 0 auto;
+    width: 70%;
+    }
+
+    #ei-events-dark .ei-events-container {
+    margin: auto;
+    width: 95%;
+    margin: auto;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.41);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.41);
+    box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.41);
+    }
+
+    .ei-event {
+    width: 100%;
+    height: 90px;
+    border: 2px solid #ebebeb;
+    border-bottom: 0px;
+    }
+
+    .ei-event .ei-date {
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 90px;
+    font-family: 'Bebas Neue';
+    font-weight: lighter;
+    }
+
+    .ei-content {
+    position: relative;
+    float: right;
+    width: 70%;
+    height: 90px;
+    }
+
+    
+}
+
 }
 .form-horizontal .has-feedback .form-control-feedback {
     right: 15px
@@ -4263,10 +4308,11 @@ textarea.input-group-sm>.input-group-btn>.btn {
     border-width: 1px 0 0
 }
 .navbar-brand {
+
     float: left;
     height: 70px;
     padding: 25px 15px;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 20px
 }
 .navbar-brand:focus,
@@ -4580,13 +4626,17 @@ fieldset[disabled] .navbar-default .btn-link:hover {
     color: #ccc
 }
 .navbar-inverse {
-    background-color: #476AC8;
+    background-color: #008ee0;
     border-color: #080808;
 	border-bottom: 0 none;
 	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);	
+    background: -webkit-linear-gradient(top, rgba(0, 165, 247, 1) 0%, rgba(0, 142, 224, 1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 165, 247, 1) 0%, rgba(0, 142, 224, 1) 100%);
+    border-width: 0px;
+    border-radius: 5px;
 }
 .navbar-inverse .navbar-brand {
-    color: #9d9d9d
+    color: #89d6ca
 }
 .navbar-inverse .navbar-brand:focus,
 .navbar-inverse .navbar-brand:hover {
@@ -4597,18 +4647,19 @@ fieldset[disabled] .navbar-default .btn-link:hover {
     color: #9d9d9d
 }
 .navbar-inverse .navbar-nav>li>a {
-    color: #9d9d9d
+    font-size: 18px;
+    color: #89d6ca
 }
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-nav>li>a:hover {
+    
     color: #fff;
     background-color: transparent
 }
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #fff;
-    background-color: #080808
+    color: #d99393;
 }
 .navbar-inverse .navbar-nav>.disabled>a,
 .navbar-inverse .navbar-nav>.disabled>a:focus,
