@@ -760,7 +760,7 @@ function mainEventify(settings) {
             // Default settings
             div: "#ei-events",
             locale: "en",
-            theme: ""
+            theme: "dark"
         }, options );
  
         return mainEventify({
